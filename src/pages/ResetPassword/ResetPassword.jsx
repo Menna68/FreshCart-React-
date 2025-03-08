@@ -49,7 +49,7 @@ export default function ResetPassword() {
     <>
       <section>
         <div className="my-4">
-          <h2 className="text-2xl text-gray-700 0 dark:text-gray-200 font-semibold">
+          <h2 className="text-2xl text-gray-700  font-semibold">
             Verify Reset Code
           </h2>
         </div>
@@ -57,12 +57,12 @@ export default function ResetPassword() {
           <div>
             <label
               htmlFor="code"
-              className="text-lg mb-1 text-gray-950 dark:text-gray-200 "
+              className="text-lg mb-1 text-gray-950  "
             >
               code:
             </label>
             <input
-              className="form-control w-full  dark:bg-gray-900 dark:border-gray-700 dark:hover:border-primay-700 dark:text-gray-200 "
+              className="form-control w-full   "
               type="tel"
               id="code"
               name="resetCode"

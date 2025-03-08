@@ -8,11 +8,11 @@ import googlplay from "../../assets/images/get-google-play.png";
 export default function Footer() {
   return (
     <>
-      <footer className="py-12 bg-slate-100 dark:bg-gray-950">
+      <footer className="py-12 bg-slate-100 ">
         <div className="container">
           <div className="inear px-5 ">
             <section className="space-y-5 mb-6">
-              <h2 className="text-3xl text-gray-800 dark:text-gray-300 ">
+              <h2 className="text-3xl text-gray-800  ">
                 Get the Freshcart app
               </h2>
               <p className="tex-3xl text-gray-500 dark:text-gray-200">
@@ -36,9 +36,9 @@ export default function Footer() {
                 </button>
               </form>
             </section>
-            <section className="flex justify-between items-center gap-10 flex-col md:flex-row border-y dark:border-gray-600 py-5">
+            <section className="flex justify-between items-center gap-10 flex-col md:flex-row border-y  py-5">
               <div className="flex justify-center flex-col md:flex-row items-center gap-4">
-                <h3 className="text-xl text-gray-800 dark:text-gray-300">
+                <h3 className="text-xl text-gray-800 ">
                   payment partners
                 </h3>
 
@@ -68,7 +68,7 @@ export default function Footer() {
               </div>
             </section>
             <div className="w-full text-center py-3">
-              <p className="text-lg text-gray-700 dark:text-gray-300">
+              <p className="text-lg text-gray-700 ">
                 All rights reserved © 2025/2026
               </p>
             </div>

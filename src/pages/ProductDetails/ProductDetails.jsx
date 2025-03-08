@@ -49,7 +49,7 @@ export default function ProductDetails() {
         <title>product details</title>
         <meta
           name="description"
-          content="product detailspage fresh cart wepsite"
+          content="product details page "
         />
       </Helmet>
       {productDetails && relatProduct ? (
@@ -105,7 +105,7 @@ export default function ProductDetails() {
             </div>
           </section>
           <section className="py-10">
-            <h2 className="text-2xl border-t pt-4 dark:border-gray-600  font-semibold text-gray-800 mb-8 ml-6">
+            <h2 className="text-2xl border-t pt-4   font-semibold text-gray-800 mb-8 ml-6">
               Related Products
             </h2>
             <div className="">

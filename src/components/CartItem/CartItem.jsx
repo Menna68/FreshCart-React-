@@ -9,8 +9,8 @@ export default function CartItem({ productInfo }) {
   const { removeProductCart, updateCartProduct } = useContext(CartContext);
   return (
     <>
-      <table className="w-full  bg-white bg-opacity-40 dark:bg-black dark:bg-opacity-40   dark:shadow-gray-600 shadow-md shadow-primay-50  rounded-2xl     ">
-        <tr className="  flex flex-col md:flex-row md:justify-between justify-center items-center border rounded-2xl  dark:border-gray-600 border-primay-50 content-center">
+      <table className="w-full  bg-white bg-opacity-40    shadow-md shadow-primay-50  rounded-2xl     ">
+        <tr className="  flex flex-col md:flex-row md:justify-between justify-center items-center border rounded-2xl   border-primay-50 content-center">
           <td className="p-4">
             <div className="flex gap-8 items-center">
               <img
@@ -18,13 +18,13 @@ export default function CartItem({ productInfo }) {
                 alt=""
                 className="w-24 h-24 object-cover rounded-full"
               />
-              <h2 className="text-xl font-semibold text-gray-600 dark:text-gray-200  max-w-48  line-clamp-2 ">
+              <h2 className="text-xl font-semibold text-gray-600   max-w-48  line-clamp-2 ">
                 <Link to={`/Details/${id}`}>{title}55</Link>
               </h2>
             </div>
           </td>
           <td className="p-4">
-            <h3 className="text-lg font-semibold text-gray-500 dark:text-gray-300  ">
+            <h3 className="text-lg font-semibold text-gray-500   ">
               {name}{" "}
             </h3>
           </td>
@@ -39,7 +39,7 @@ export default function CartItem({ productInfo }) {
                 >
                   <i className="fa-solid fa-plus d text-white cursor-pointer"></i>
                 </div>
-                <span className="text-lg font-semibold  text-gray-600 dark:text-gray-200 ">
+                <span className="text-lg font-semibold  text-gray-600  ">
                   {count}
                 </span>
                 <div
@@ -55,10 +55,10 @@ export default function CartItem({ productInfo }) {
           </td>
           <td className="p-4 ">
             <div>
-              <span className="text-lg text-gray-700 dark:text-gray-200  font-semibold">
+              <span className="text-lg text-gray-700  font-semibold">
                 {price}
               </span>
-              <span className="text-sm ml-2 font-semibold text-gray-600 dark:text-gray-300 ">
+              <span className="text-sm ml-2 font-semibold text-gray-600  ">
                 L.E
               </span>
             </div>
@@ -68,7 +68,7 @@ export default function CartItem({ productInfo }) {
               onClick={() => {
                 removeProductCart({ id });
               }}
-              className="  rounded-md text-gray-800 dark:text-gray-300 dark:hover:text-red-600  hover:scale-110 hover:text-red-600  transition-all"
+              className="  rounded-md text-gray-800   hover:scale-110 hover:text-red-600  transition-all"
             >
               <i className="fa-regular fa-trash-can text-xl"></i>
             </button>

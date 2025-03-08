@@ -62,16 +62,16 @@ export default function Products() {
         <title>All products</title>
         <meta
           name="description"
-          content="All products page frsh cart wepsite"
+          content="All products "
         />
       </Helmet>
       <div className="container">
-        <div className="text-center w-full  dark:border-gray-600  rounded-2xl shadow-md backdrop-blur-2xl  mb-5  p-3 px-5 border  flex flex-col md:flex-row justify-between items-center">
-          <h2 className="text-gray-800  dark:text-gray-200  text-2xl font-semibold my-3">
+        <div className="text-center w-full   rounded-2xl shadow-md backdrop-blur-2xl  mb-5  p-3 px-5 border  flex flex-col md:flex-row justify-between items-center">
+          <h2 className="text-gray-800    text-2xl font-semibold my-3">
             All products
           </h2>
           <div className="drowp-down-product ">
-            <h3 className="text-sn font-semibold text-gray-600 dark:text-gray-200 ">
+            <h3 className="text-sn font-semibold text-gray-600  ">
               {" "}
               Categories
             </h3>
@@ -79,7 +79,7 @@ export default function Products() {
               name="product"
               id=""
               onChange={handelChanegeCatog}
-              className=" bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-200 border-[1.5px] py-1 font-semibold px-2 rounded-md border-gray-500 outline-none mt-2"
+              className=" bg-white text-gray-800   border-[1.5px] py-1 font-semibold px-2 rounded-md border-gray-500 outline-none mt-2"
             >
               <option value="">all product</option>
               {allCategory.map((Categorys) => (
@@ -96,7 +96,7 @@ export default function Products() {
               <div className="w-[80%] flex justify-center items-center ">
                 <img src={productfound} alt="" className="w-[35%] " />
               </div>
-              <p className="text-3xl text-gray-950 font-bold dark:text-white">
+              <p className="text-3xl text-gray-950 font-bold ">
                 sorry,no product found!
               </p>
               <p className="text-xl text-gray-600 dark:text-gray-100 font-semibold ">
@@ -119,7 +119,7 @@ export default function Products() {
               </div>
               <div className="flex justify-center w-full">
                 <button
-                  className=" border border-gray-500 rounded-3xl dark:text-gray-200 dark:hover:text-primay-600   hover:border-primay-600  text-gray-600 hover:text-primay-600 text-lg font-semibold px-3 py-1"
+                  className=" border border-gray-500 rounded-3xl    hover:border-primay-600  text-gray-600 hover:text-primay-600 text-lg font-semibold px-3 py-1"
                   onClick={moroProduct}
                 >
                   see more products...

@@ -6,7 +6,7 @@ export default function NotFound() {
     <>
       <Helmet>
         <title>Not found</title>
-        <meta name="description" content=" Not found page frsh cart wepsite" />
+        <meta name="description" content=" Not found page " />
       </Helmet>
       <div className="w-full my-10 py-9 flex flex-col gap-2 justify-center items-center h-[60vh]">
         <img className="w-full h-full" src={error} alt="" />

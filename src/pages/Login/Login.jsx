@@ -68,23 +68,23 @@ export default function Login() {
     <>
       <Helmet>
         <title>Login</title>
-        <meta name="description" content="Login page for Fresh Cart website" />
+        <meta name="description" content="Login page " />
       </Helmet>
       <section className="px-4 py-10">
         <div className="inear">
-          <h2 className="text-2xl font-semibold text-gray-950 dark:text-gray-200">
+          <h2 className="text-2xl font-semibold text-gray-950 ">
            Login Now
           </h2>
           <form className="py-8 space-y-2" onSubmit={formik.handleSubmit}>
             <div className="email">
-              <label htmlFor="email" className="text-lg mb-1 text-gray-950 dark:text-gray-200">
+              <label htmlFor="email" className="text-lg mb-1 text-gray-950 ">
                 Email:
               </label>
               <input
                 type="email"
                 id="email"
                 placeholder="Email Address"
-                className="form-control w-full dark:bg-gray-900 dark:border-gray-700 dark:text-gray-200"
+                className="form-control w-full "
                 {...formik.getFieldProps("email")}
               />
               {formik.errors.email && formik.touched.email && (
@@ -94,7 +94,7 @@ export default function Login() {
               )}
             </div>
             <div className="password">
-              <label htmlFor="password" className="text-lg mb-1 text-gray-950 dark:text-gray-200">
+              <label htmlFor="password" className="text-lg mb-1 text-gray-950 ">
                 Password:
               </label>
               <div className="relative">
@@ -102,7 +102,7 @@ export default function Login() {
                   type={showPass}
                   id="password"
                   placeholder="Password"
-                  className="form-control w-full dark:bg-gray-900 dark:border-gray-700 dark:text-gray-200"
+                  className="form-control w-full "
                   {...formik.getFieldProps("password")}
                 />
                 <div onClick={showPassword} className="absolute right-[10px] top-[8px] cursor-pointer">
@@ -124,6 +124,9 @@ export default function Login() {
                 </p>
               )}
             </div>
+
+
+            
             <div className="flex justify-between items-center">
               <button
                 type="submit"

@@ -17,16 +17,16 @@ export default function Cart() {
     <>
       <Helmet>
         <title>Cart</title>
-        <meta name="description" content="Cart page frsh cart wepsite" />
+        <meta name="description" content="Cart page " />
       </Helmet>
       {cartInfo === null ? (
         <Loading />
       ) : (
         <section>
-          <div className="title flex items-center gap-4 text-2xl text-gray-800 dark:text-gray-200 font-semibold">
+          <div className="title flex items-center gap-4 text-2xl text-gray-800 font-semibold">
             
 
-            <h2 className=" relative before:absolute before:h-[75%] before:w-[2px] ml-2 pl-2   before:-left-1 before:top-1/2 before:-translate-y-1/2 dark:before:bg-gray-200 before:bg-gray-800">
+            <h2 className=" relative before:absolute before:h-[75%] before:w-[2px] ml-2 pl-2   before:-left-1 before:top-1/2 before:-translate-y-1/2  before:bg-gray-800">
               Your Shopping Cart
             </h2>
           </div>
@@ -35,7 +35,7 @@ export default function Cart() {
               <div className="flex justify-center items-center w-1/2">
                 <img src={cart} alt="" className="w-full" />
               </div>
-              <h2 className="text-xl font-semibold text-gray-700 dark:text-gray-200 ">
+              <h2 className="text-xl font-semibold text-gray-700  ">
                 Your cart is empty, Go ahead and add something to the cart
               </h2>
               <Link
@@ -52,13 +52,13 @@ export default function Cart() {
               ))}
               <div className="flex md:flex-row flex-col justify-between items-center">
                 <div className="flex items-center  py-4">
-                  <p className="text-2xl font-semibold ml-2 text-gray-700 dark:text-gray-300 ">
+                  <p className="text-2xl font-semibold ml-2 text-gray-700  ">
                     totalCartPrice
                   </p>
-                  <span className="text-xl font-semibold ml-2 text-primay-600 dark:text-primay-50">
+                  <span className="text-xl font-semibold ml-2 text-primay-600 0">
                     {cartInfo.data.totalCartPrice}
                   </span>
-                  <span className="text-md font-semibold ml-1 mt-1 text-gray-700 dark:text-gray-300 ">
+                  <span className="text-md font-semibold ml-1 mt-1 text-gray-700  ">
                     L.E
                   </span>
                 </div>

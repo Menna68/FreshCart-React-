@@ -15,7 +15,7 @@ export default function WishList() {
     <>
       <Helmet>
         <title> wishlist </title>
-        <meta name="description" content="wishlist page frsh cart wepsite" />
+        <meta name="description" content="wishlist page " />
       </Helmet>
       {wishInfo === null ? (
         <Loading />

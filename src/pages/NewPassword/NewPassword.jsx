@@ -70,7 +70,7 @@ export default function NewPassword() {
     <>
       <section>
         <div className="my-4">
-          <h2 className="text-2xl text-gray-700 font-semibold  dark:text-gray-200">
+          <h2 className="text-2xl text-gray-700 font-semibold  ">
             Reset Password
           </h2>
         </div>
@@ -78,12 +78,12 @@ export default function NewPassword() {
           <div className="email">
             <label
               htmlFor="email"
-              className="text-lg mb-1 text-gray-950 dark:text-gray-200"
+              className="text-lg mb-1 text-gray-950 "
             >
               email:
             </label>
             <input
-              className="form-control w-full  dark:bg-gray-900 dark:border-gray-700 dark:hover:border-primay-700 dark:text-gray-200"
+              className="form-control w-full   "
               type="email"
               id="email"
               name="email"
@@ -101,7 +101,7 @@ export default function NewPassword() {
           <div className="password">
             <label
               htmlFor="password"
-              className="text-lg mb-1 text-gray-950 dark:text-gray-200"
+              className="text-lg mb-1 text-gray-950 "
             >
               New password:
             </label>
@@ -110,7 +110,7 @@ export default function NewPassword() {
                 type={showPass}
                 id="password"
                 placeholder="NewPassword"
-                className="form-control w-full  dark:bg-gray-900 dark:border-gray-700 dark:hover:border-primay-700 dark:text-gray-200 "
+                className="form-control w-full   "
                 value={formik.values.newPassword}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}

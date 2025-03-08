@@ -75,16 +75,16 @@ export default function CheackOut() {
     <>
       <Helmet>
         <title>CheackOut</title>
-        <meta name="description" content="CheackOut page frsh cart wepsite" />
+        <meta name="description" content="CheackOut page " />
       </Helmet>
-      <h2 className="mb-5 text-2xl font-semibold dark:text-gray-200  text-gray-800">
+      <h2 className="mb-5 text-2xl font-semibold  text-gray-800">
         Shipping Address{" "}
       </h2>
       <form action="" className="space-y-4" onSubmit={formik.handleSubmit}>
         <div>
           <input
             type="text"
-            className="form-control w-full dark:bg-gray-900 dark:border-gray-700 dark:hover:border-primay-700 dark:text-gray-200 "
+            className="form-control w-full   "
             placeholder="City"
             name="shippingAddress.city"
             value={formik.values.shippingAddress.city}
@@ -94,7 +94,7 @@ export default function CheackOut() {
         <div>
           <input
             type="tel"
-            className="form-control w-full  dark:bg-gray-900 dark:border-gray-700 dark:hover:border-primay-700 dark:text-gray-200"
+            className="form-control w-full  "
             placeholder="phone"
             name="shippingAddress.phone"
             value={formik.values.shippingAddress.phone}
@@ -104,7 +104,7 @@ export default function CheackOut() {
         <div>
           <textarea
             placeholder="details"
-            className="form-control w-full min-h-20  dark:bg-gray-900 dark:border-gray-700 dark:hover:border-primay-700 dark:text-gray-200"
+            className="form-control w-full min-h-20 "
             id=""
             name="shippingAddress.details"
             value={formik.values.shippingAddress.details}

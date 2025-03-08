@@ -40,7 +40,7 @@ export default function Card({ productInfo }) {
   }, [addOrRemovWishList]);
   return (
     <>
-      <div className="card group/card relative  w-full pb-10 rounded-2xl overflow-hidden shadow-sm border hover:scale-105 m-2 transition-all duration-300 border-gray-200 dark:border-gray-700 dark:hover:border-primay-400   hover:border-primay-300   hover:transition-all hover:duration-300">
+      <div className="card group/card relative  w-full pb-10 rounded-2xl overflow-hidden shadow-sm border hover:scale-105 m-2 transition-all duration-300 border-gray-200    hover:border-primay-300   hover:transition-all hover:duration-300">
         <div className="relative">
           <img
             src={imageCover}
@@ -64,24 +64,24 @@ export default function Card({ productInfo }) {
         </div>
         <div className="card-body   p-4 space-y-5">
           <div className="card-header space-y-1">
-            <h2 className="text-xl text-gray-700 dark:text-gray-200 line-clamp-1 font-semibold">
+            <h2 className="text-xl text-gray-700  line-clamp-1 font-semibold">
               {title}
             </h2>
             <h3 className=" text-xl text-primay-600  font-medium">
               {category.name}
             </h3>
-            <p className=" font-medium text-xl text-black dark:text-gray-300  line-clamp-2">
+            <p className=" font-medium text-xl text-black   line-clamp-2">
               {description}
             </p>
           </div>
           <div className="footer-card flex justify-between items-center">
-            <div className="flex justify-center items-center text-black dark:text-gray-300  text-lg font-medium">
+            <div className="flex justify-center items-center text-black   text-lg font-medium">
               <p>
                 {price}
                 <span>EGP</span>
               </p>
             </div>
-            <div className="flex justify-center items-center dark:text-gray-300  text-slate-600">
+            <div className="flex justify-center items-center   text-slate-600">
               <i className="fa-solid fa-star text-md text-yellow-300"></i>
               {ratingsAverage}
             </div>

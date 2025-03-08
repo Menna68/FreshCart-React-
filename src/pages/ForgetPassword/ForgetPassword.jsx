@@ -53,7 +53,7 @@ export default function ForgetPassword() {
     <>
       <section>
         <div className="my-4">
-          <h2 className="text-2xl text-gray-700 font-semibold  dark:text-gray-200">
+          <h2 className="text-2xl text-gray-700 font-semibold ">
             Forget password
           </h2>
         </div>
@@ -61,12 +61,12 @@ export default function ForgetPassword() {
           <div>
             <label
               htmlFor="email"
-              className="text-lg mb-1 text-gray-950 dark:text-gray-200"
+              className="text-lg mb-1 text-gray-950 "
             >
               email:
             </label>
             <input
-              className="form-control w-full  dark:bg-gray-900 dark:border-gray-700 dark:hover:border-primay-700 dark:text-gray-200"
+              className="form-control w-full  "
               type="email"
               id="email"
               name="email"

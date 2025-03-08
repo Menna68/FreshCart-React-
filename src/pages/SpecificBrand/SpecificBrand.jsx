@@ -34,7 +34,7 @@ export default function SpecificBrand() {
               alt=""
             />
           </div>
-          <h2 className="text-center text-gray-900 dark:text-slate-200 py-2 font-semibold">
+          <h2 className="text-center text-gray-900  py-2 font-semibold">
             {specificBrand.name}
           </h2>
         </div>

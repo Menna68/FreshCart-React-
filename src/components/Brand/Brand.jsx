@@ -25,8 +25,8 @@ export default function Brand() {
 
   return (
     <>
-      <div className=" dark:border-gray-500 py-6 ">
-        <h2 className="text-gray-600 dark:text-gray-300 text-xl font-semibold mb-6">
+      <div className="py-6 ">
+        <h2 className="text-gray-600  text-xl font-semibold mb-6">
           All brands
         </h2>
         <Swiper
@@ -64,7 +64,7 @@ export default function Brand() {
                       alt=""
                     />
                   </div>
-                  <h2 className="text-center text-gray-900 dark:text-slate-200 py-2 font-semibold">
+                  <h2 className="text-center text-gray-900  py-2 font-semibold">
                     {brand.name}
                   </h2>
                 </div>

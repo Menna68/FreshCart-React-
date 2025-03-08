@@ -30,13 +30,13 @@ export default function Orders() {
     <>
       <Helmet>
         <title>Orders page</title>
-        <meta name="description" content="Orders page frsh cart wepsite" />
+        <meta name="description" content="Orders page " />
       </Helmet>
       {orders == "" ? (
         <div>
           <div className="w-full text-center gap-4 flex flex-col justify-center items-center">
             <img src={order} className="w-[35%]" alt="" />
-            <h2 className="text-gray-700 dark:text-gray-200  text-2xl font-semibold">
+            <h2 className="text-gray-700  text-2xl font-semibold">
               There are no ordes yet
             </h2>
             <Link
@@ -59,10 +59,10 @@ export default function Orders() {
                   >
                     <header className="flex justify-between items-center">
                       <div>
-                        <h2 className=" mb-1  text-gray-400 dark:text-gray-100 ">
+                        <h2 className=" mb-1  text-gray-400 ">
                           order ID
                         </h2>
-                        <span className="text-xl font-bold dark:text-gray-300  text-gray-800">
+                        <span className="text-xl font-bold  text-gray-800">
                           #{order.id}
                         </span>
                       </div>
@@ -93,7 +93,7 @@ export default function Orders() {
                         <>
                           <div
                             key={product._id}
-                            className="border rounded-xl dark:text-gray-200   p-3 my-6 border-gray-400 border-opacity-25 "
+                            className="border rounded-xl  p-3 my-6 border-gray-400 border-opacity-25 "
                           >
                             <img
                               src={product.product.imageCover}
@@ -101,11 +101,11 @@ export default function Orders() {
                               className="w-full"
                             />
 
-                            <h2 className="text-lg  dark:text-gray-200 font-semibold text-gray-800  line-clamp-2 my-2">
+                            <h2 className="text-lg  font-semibold text-gray-800  line-clamp-2 my-2">
                               {product.product.title}
                             </h2>
-                            <span className="text-gray-700 dark:text-gray-200  text-lg  ">
-                              <span className="font-medium dark:text-gray-200  text-gray-800">
+                            <span className="text-gray-700  text-lg  ">
+                              <span className="font-medium text-gray-800">
                                 {product.price}
                               </span>
                               L.E
@@ -115,12 +115,12 @@ export default function Orders() {
                       ))}
                     </div>
                     <div className="total-price my-3 ">
-                      <p className=" text-gray-600 dark:text-gray-200  text-lg font-semibold ">
+                      <p className=" text-gray-600   text-lg font-semibold ">
                         total Order Price:
                         <span className="text-primay-600 mx-2">
                           {order.totalOrderPrice}
                         </span>
-                        <span className="text-sm text-gray-600 dark:text-gray-200 ">
+                        <span className="text-sm text-gray-600  ">
                           L.E
                         </span>
                       </p>

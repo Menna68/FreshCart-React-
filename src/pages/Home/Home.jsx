@@ -27,12 +27,12 @@ export default function Home() {
     <>
       <Helmet>
         <title>Fresh cart</title>
-        <meta name="description" content="home page frsh cart wepsite" />
+        <meta name="description" content="home page " />
       </Helmet>
       <HomeSlider />
       <Category />
       <div className=" mt-4">
-        <h2 className="text-gray-700 text-xl font-semibold dark:text-gray-300">
+        <h2 className="text-gray-700 text-xl font-semibold ">
           All products
         </h2>
       </div>

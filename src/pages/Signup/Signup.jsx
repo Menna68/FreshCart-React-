@@ -83,11 +83,11 @@ export default function Signup() {
     <>
       <Helmet>
         <title>Signup</title>
-        <meta name="description" content="Signup page fresh cart website" />
+        <meta name="description" content="Signup page " />
       </Helmet>
       <section className="px-4 py-10">
         <div className="inear">
-          <h2 className="text-2xl font-semibold text-gray-950 dark:text-gray-200 ">
+          <h2 className="text-2xl font-semibold text-gray-950  ">
             <i className="fa-regular fa-circle-user"></i> Register Now
           </h2>
           <form
@@ -98,7 +98,7 @@ export default function Signup() {
             <div className="name">
               <label
                 htmlFor="name"
-                className="text-lg mb-1 text-gray-950 dark:text-gray-200"
+                className="text-lg mb-1 text-gray-950 "
               >
                 Name:
               </label>
@@ -106,7 +106,7 @@ export default function Signup() {
                 type="text"
                 id="name"
                 placeholder="Type your name"
-                className="form-control w-full  dark:bg-gray-900 dark:border-gray-700 dark:hover:border-primay-700 dark:text-gray-200"
+                className="form-control w-full  "
                 value={formik.values.name}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
@@ -121,7 +121,7 @@ export default function Signup() {
             <div className="email">
               <label
                 htmlFor="email"
-                className="text-lg mb-1 text-gray-950 dark:text-gray-200"
+                className="text-lg mb-1 text-gray-950 "
               >
                 Email:
               </label>
@@ -129,7 +129,7 @@ export default function Signup() {
                 type="email"
                 id="email"
                 placeholder="Email Address"
-                className="form-control w-full  dark:bg-gray-900 dark:border-gray-700 dark:hover:border-primay-700 dark:text-gray-200 "
+                className="form-control w-full   "
                 value={formik.values.email}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
@@ -149,7 +149,7 @@ export default function Signup() {
             <div className="password">
               <label
                 htmlFor="password"
-                className="text-lg mb-1 text-gray-950 dark:text-gray-200"
+                className="text-lg mb-1 text-gray-950 "
               >
                 Password:
               </label>
@@ -158,7 +158,7 @@ export default function Signup() {
                   type={showPass}
                   id="password"
                   placeholder="Password"
-                  className="form-control w-full  dark:bg-gray-900 dark:border-gray-700 dark:hover:border-primay-700 dark:text-gray-200 "
+                  className="form-control w-full  "
                   value={formik.values.password}
                   onChange={formik.handleChange}
                   onBlur={formik.handleBlur}
@@ -180,7 +180,7 @@ export default function Signup() {
             <div className="re-password">
               <label
                 htmlFor="confirm-password"
-                className="text-lg mb-1 text-gray-950 dark:text-gray-200"
+                className="text-lg mb-1 text-gray-950 "
               >
                 Re-Password:
               </label>
@@ -189,7 +189,7 @@ export default function Signup() {
                   type={showPass}
                   id="confirm-password"
                   placeholder="Confirm Password"
-                  className="form-control w-full dark:bg-gray-900 dark:border-gray-700 dark:hover:border-primay-700 dark:text-gray-200"
+                  className="form-control w-full "
                   value={formik.values.rePassword}
                   onChange={formik.handleChange}
                   onBlur={formik.handleBlur}
@@ -211,7 +211,7 @@ export default function Signup() {
             <div className="phone">
               <label
                 htmlFor="phone"
-                className="text-lg mb-1 text-gray-950 dark:text-gray-200"
+                className="text-lg mb-1 text-gray-950 "
               >
                 Phone:
               </label>
@@ -219,7 +219,7 @@ export default function Signup() {
                 type="tel"
                 id="phone"
                 placeholder="Phone Number"
-                className="form-control w-full  dark:bg-gray-900 dark:border-gray-700 dark:hover:border-primay-700 dark:text-gray-200"
+                className="form-control w-full   "
                 value={formik.values.phone}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
